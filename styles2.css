@@ -1,0 +1,26 @@
+/* styles2.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('640x360.jpg');
+  background-size: cover; /* Änderung von 'cover' auf 'contain' */
+  background-repeat: no-repeat; /* Hintergrundbild nur einmal wiederholen */
+  background-position: center center; /* Hintergrundbild in der Mitte positionieren */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #2a08ee;
+}
+
+p {
+  color: #f2eeee;
+  text-align: center;
+  font-size: 1.2em;
+}
